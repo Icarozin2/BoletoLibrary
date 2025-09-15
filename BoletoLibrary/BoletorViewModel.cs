@@ -16,5 +16,6 @@
         public string NomePagador { get; set; }
         public string DocumentoPagadorFormatado { get; set; }
         public string EnderecoPagadorCompleto { get; set; }
+        public string LogoSrc { get; set; }
     }
 }

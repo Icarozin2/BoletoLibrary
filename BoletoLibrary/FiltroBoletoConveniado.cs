@@ -11,7 +11,7 @@ namespace BoletoLibrary
         // Dados do boleto
         public int IdBoletoTOTVS { get; set; }
         public string DataVencimento { get; set; }
-        public double ValorBoleto { get; set; }
+        public decimal ValorBoleto { get; set; }
 
         // Dados do Totvs - FBOLETO
         public int CodColigada { get; set; }

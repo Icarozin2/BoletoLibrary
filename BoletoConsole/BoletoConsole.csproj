@@ -11,4 +11,10 @@
     <ProjectReference Include="..\BoletoLibrary\BoletoLibrary.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Content Include="assets\logo.jpeg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
 </Project>
