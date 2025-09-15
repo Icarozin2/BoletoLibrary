@@ -75,10 +75,10 @@ namespace BoletoLibrary
                 string.Join(", ", candidates));
         }
 
-        // ------ helper: HTML -> PDF com Puppeteer (bloqueante) ------
+     
         private void SalvarPdfComPuppeteer(string html, string caminhoSaida)
         {
-            // roda o async de forma bloqueante para não mudar sua assinatura pública
+           
             SalvarPdfComPuppeteerAsync(html, caminhoSaida).GetAwaiter().GetResult();
         }
 
